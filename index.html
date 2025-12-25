@@ -1,95 +1,98 @@
 <!doctype html>
 <html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Software Engineer">
-<meta name="author" content="Peyton Wiecking">
-<meta name="theme-color" content="#222222">
-<title>Peyton Wiecking</title>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Software Engineer">
+        <meta name="author" content="Peyton Wiecking">
+        <meta name="theme-color" content="#222222">
+        <title>Peyton Wiecking</title>
 
-<!-- Styling -->
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-<link rel="stylesheet" href="assets/style.css"> <!-- remove if unused -->
-</head>
+        <link rel="apple-touch-icon" sizes="180x180" href="images/nicons/p.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="images/nicons/p.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="images/nicons/p.png">
+        
+        <!-- Styling -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/style.css">
+    </head>
+    <body>
+        <div class="container" style="max-width:900px; margin-top:60px;">
+            <table style="width:100%; text-align:center; margin-bottom:40px;">
+                <tr>
+                    <td style="padding:20px;">
+                        <p style="font-size:32pt; font-weight:bold; margin-bottom:10px;">Peyton Wiecking</p>
+                        
+                        <div>
+                            <a href="assets/Resume_20DEC25.pdf" target="_blank" style="margin:0 10px;"><img src="images/resume.png" height="32">
+                            </a> 
+                            <a href="https://www.linkedin.com/in/peyton-wiecking" target="_blank" style="margin:0 10px;"><img src="images/linkedin.png" height="32">
+                            </a>
+                            <a href="https://github.com/wieckingcp23" target="_blank" style="margin:0 10px;"><img src="images/github.png" height="32">
+                            </a>
+                            <a href="mailto:pwiecking@outlook.com" target="_blank" style="margin:0 10px;"><img src="images/email.png" height="32">
+                            </a>
+                        </div>
+                    </td>
+                    <td style="padding:20px;">
+                        <img src="images/profile.jpg" style="width:200px; border-radius:8px;">
+                    </td>
+                </tr>
+            </table>
+            <!-- ABOUT -->
+            <p>
+                I am a Software Engineer at <b>L3Harris Technologies</b>.
+            </p>
+            <p>
+                Previously, I worked as a Computer Scientist for the <b>U.S. Air Force Life Cycle Management Center</b>.
+            </p>
+            <p>
+                My engineering interests include <b>embedded systems, radio communications, secure networking, low-level protocols, and backend development</b>.
+            </p>
+            
+            <!-- EXPERIENCE -->
+            <h2 style="margin-top:50px;">Experience</h2>
 
-<body>
-
-<div class="container" style="max-width:900px; margin-top:60px;">
-
-<table style="width:100%; text-align:center; margin-bottom:40px;">
-<tr>
-<td style="padding:20px;">
-
-<p style="font-size:32pt; font-weight:bold; margin-bottom:10px;">Peyton Wiecking</p>
-
-<div>
-    <a href="assets/Resume_20DEC25.pdf" target="_blank" style="margin:0 10px;"><img src="images/resume.png" height="32"></a>
-    <a href="https://www.linkedin.com/in/peyton-wiecking" target="_blank" style="margin:0 10px;"><img src="images/linkedin.png" height="32"></a>
-    <a href="https://github.com/wieckingcp23" target="_blank" style="margin:0 10px;"><img src="images/github.png" height="32"></a>
-    <a href="mailto:pwiecking@outlook.com" target="_blank" style="margin:0 10px;"><img src="images/email.png" height="32"></a>
-</div>
-
-</td>
-
-<td style="padding:20px;">
-<img src="images/profile.jpg" style="width:200px; border-radius:8px;">
-</td>
-</tr>
-</table>
-
-<!-- ABOUT -->
-<p>
-I am a Software Engineer at <b>L3Harris Technologies</b>, where I develop Java Spring Boot driver applications that interface with tactical radios, modems, and secure communication systems. Much of my work involves serial/socket communication, device command execution, byte-level encoding/decoding, and maintaining synchronized state with physical hardware.
-</p>
-<p>
-Previously, I worked as a Computer Scientist for the <b>U.S. Air Force Life Cycle Management Center</b>, performing interoperability testing on HAIPE devices, building internal tooling, and supporting SCIF-based development workflows.
-</p>
-<p>
-My engineering interests include <b>embedded systems, radio communications, secure networking, low-level protocols, and backend development</b>. Outside of work I enjoy building tools, experimenting with drivers/simulators, and learning more about systems programming and C++.
-</p>
-
-<!-- EXPERIENCE -->
-<h2 style="margin-top:50px;">Experience</h2>
-
-<div style="margin-bottom:20px;">
-<b>Senior Associate, Software Engineer — L3Harris Technologies</b><span style="float:right;">Sep 2025 – Present</span><br>
-<i>Camden, NJ</i><br>
-• Radio driver development (serial/socket)<br>
-• REST API integration & ICD workflow implementation<br>
-• Encoding/decoding, logging, caching<br>
-• Jira/Bitbucket/Confluence, simulator & architecture support<br>
-</div>
-
-<div style="margin-bottom:20px;">
-<b>Computer Scientist — USAF AFLCMC/HNC</b><span style="float:right;">Jul 2023 – Aug 2025</span><br>
-<i>San Antonio, TX</i><br>
-• RFC test execution for tactical radios & HAIPEs<br>
-• Built SNMP GUI for COMSEC metadata and auditing<br>
-• Refactored diagnostics suite for APX-119<br>
-• Authoring test/user documentation<br>
-</div>
-
-<!-- PROJECTS -->
-<h2 style="margin-top:50px;">Projects</h2>
-<p><b>PIES Electronic Health Records System</b> — Spring Boot, Next.js, MySQL, Docker<br>
-Secure EHR workflow system with RBAC & digital signatures.</p>
-
-<p><b>RustShield</b> — Rust, Linux Kernel<br>
-Explored Rust integration with Linux kernel module systems.</p>
-
-<!-- SKILLS -->
-<h2 style="margin-top:50px;">Technical Skills</h2>
-<ul>
-<li><b>Languages:</b> Java, Python, C/C++, SQL, Bash</li>
-<li><b>Backend:</b> Spring Boot, REST, Gradle</li>
-<li><b>Protocols:</b> Serial/RS-232, TCP/UDP, ICD parsing</li>
-<li><b>Systems:</b> Linux, Windows, COMSEC familiarity</li>
-<li><b>Tools:</b> Git, Bitbucket, IntelliJ, VS Code</li>
-<li><b>Certs:</b> Security+, C|OSINT</li>
-</ul>
-
-</div>
-
-</body>
+            <div style="margin-bottom:20px;">
+                <b>Senior Associate, Software Engineer — L3Harris Technologies</b><span style="float:right;">Sep 2025 – Present</span><br>
+                <i>Camden, NJ</i><br>
+                - Radio driver development (serial/socket)<br>
+                - REST API integration & ICD workflow implementation<br>
+                - Encoding/decoding, logging, caching<br>
+                - Jira/Bitbucket/Confluence, simulator & architecture support<br>
+            </div>
+            
+            <div style="margin-bottom:20px;">
+                <b>Computer Scientist — USAF AFLCMC/HNC</b><span style="float:right;">Jul 2023 – Aug 2025</span><br>
+                <i>San Antonio, TX</i><br>
+                - RFC test execution for tactical radios & HAIPEs<br>
+                - Built SNMP GUI for COMSEC metadata and auditing<br>
+                - Refactored diagnostics suite for APX-119<br>
+                - Authoring test/user documentation<br>
+            </div>
+            
+            <!-- PROJECTS -->
+             <h2 style="margin-top:50px;">Projects</h2>
+             
+             <p>
+                <b>PIES Electronic Health Records System</b> — Spring Boot, Next.js, MySQL, Docker<br>
+                - Secure EHR workflow system with RBAC & digital signatures.
+            </p>
+            <p>
+                <b>RustShield</b> — Rust, Linux Kernel<br>
+                - Explored Rust integration with Linux kernel module systems.
+            </p>
+            
+            <!-- SKILLS -->
+             <h2 style="margin-top:50px;">Technical Skills</h2>
+             <ul>
+                <li><b>Languages:</b> Java, Python, C/C++, SQL, Bash</li>
+                <li><b>Backend:</b> Spring Boot, REST, Gradle</li>
+                <li><b>Protocols:</b> Serial/RS-232, TCP/UDP, ICD parsing</li>
+                <li><b>Systems:</b> Linux, Windows, COMSEC familiarity</li>
+                <li><b>Tools:</b> Git, Bitbucket, IntelliJ, VS Code</li>
+                <li><b>Certs:</b> Security+, C|OSINT</li>
+            </ul>
+        </div>
+    </body>
 </html>
