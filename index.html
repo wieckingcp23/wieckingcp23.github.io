@@ -1,68 +1,104 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Software Engineer">
+  <meta name="author" content="Peyton Wiecking">
+  <meta name="theme-color" content="#222222">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="images/nicons/favicon-32x32.png">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/style.css">
+
   <title>Peyton Wiecking</title>
 
-  <!-- Icons -->
-  <link rel="icon" type="image/png" sizes="32x32" href="images/nicons/favicon-32x32.png">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-  <link rel="stylesheet" href="assets/style.css"> <!-- we'll simplify later -->
-
   <style>
-      body { background:#fafafa; font-family:Arial, sans-serif; }
-      .container { max-width:900px; margin-top:60px; }
-      .name { font-size:40px; font-weight:bold; }
-      .profilepic { border-radius:8px; width:160px; margin-bottom:20px; }
-      h2 { margin-top:35px; font-size:24px; }
-      a { color:#0077cc; text-decoration:none; }
-      a:hover { text-decoration:underline; }
-      .tagline { font-size:18px; color:#444; margin-bottom:20px; }
+    body { background:#fafafa; font-family:Arial, sans-serif; }
+    .container { max-width:950px; margin-top:60px; }
+    .name { font-size:34pt; font-weight:bold; letter-spacing:1px; margin:0; }
+    .profilepic { width:230px; border-radius:8px; }
+    .section-title { font-size:22pt; margin-top:50px; font-weight:bold; }
+    a { color:#0077cc; }
+    a:hover { text-decoration:underline; }
+    ul { line-height:1.7; }
   </style>
 </head>
 
 <body>
+
 <div class="container">
+  <!-- Header block -->
+   <table style="width:100%; text-align:center; margin-bottom:40px;">
+    <tr>
+        <td style="padding:20px;">
+        <p class="name">PEYTON WIECKING</p>
 
-  <div class="text-center">
-    <img src="images/profile-pixel.png" class="profilepic" alt="profile">
-    <p class="name">Peyton Wiecking</p>
-    <p class="tagline">Software Engineer • Systems & Communication Focus</p>
+        <!-- Icon Row -->
+        <div style="margin-top:15px;">
+            <a href="assets/resume.pdf" target="_blank" style="margin:0 8px;">
+            <img src="images/resume.png" alt="resume" style="height:32px;">
+            </a>
+            
+            <a href="https://github.com/wieckingcp23" target="_blank" style="margin:0 8px;">
+            <img src="images/github.png" alt="github" style="height:32px;">
+            </a>
 
-    <p>
-      <a href="https://github.com/wieckingcp23" target="_blank">GitHub</a> ·
-      <a href="https://linkedin.com/in/peyton-wiecking" target="_blank">LinkedIn</a> ·
-      <a href="mailto:YOUR_EMAIL@domain.com" target="_blank">Email</a>
-    </p>
-  </div>
+            <a href="https://linkedin.com/in/YOUR-LINK" target="_blank" style="margin:0 8px;">
+            <img src="images/linkedin.png" alt="linkedin" style="height:32px;">
+            </a>
+        </div>
 
-  <h2>About Me</h2>
-  <p>
-    I’m a software engineer interested in system-level development, device communication,
-    backend tooling, and low-level programming concepts. I work primarily with Java/Spring Boot,
-    event-driven patterns, and device interfacing. I'm currently expanding into C/C++ and embedded systems.
+        <p style="margin-top:10px; font-size:15px; color:#444;">
+            <a href="mailto:YOUR_EMAIL" style="text-decoration:none;">YOUR_EMAIL</a>
+        </p>
+        </td>
+    </tr>
+    </table>
+
+
+
+  <!-- ABOUT SECTION -->
+  <p style="font-size:17px; line-height:1.7;">
+    This is a test
   </p>
 
-  <h2>Skills</h2>
+  <p style="font-size:17px; line-height:1.7;">
+    This is a second test
+  </p>
+
+
+  <!-- SKILLS -->
+  <p class="section-title">Skills</p>
   <ul>
-    <li>Java · Spring Boot · Gradle</li>
-    <li>Serial/Device Communication</li>
-    <li>Kafka & event streaming systems</li>
-    <li>Git · Confluence · CI familiarity</li>
-    <li>Learning: C/C++, embedded systems</li>
+    <li>Item</li>
+    <li>Item2</li>
+    <li>Item3</li>
+    <li>Item4</li>
+    <li>Item5</li>
   </ul>
 
-  <h2>Projects</h2>
-  <p>See <a href="projects.html">projects →</a></p>
 
-  <h2>Experience</h2>
-  <p>See <a href="experience.html">experience →</a></p>
+  <!-- PROJECTS -->
+  <p class="section-title">Projects</p>
+  <p><a href="projects.html">View detailed project page →</a></p>
 
-  <h2>Learning & Notes</h2>
-  <p>Optional page later — could include dev logs, C++ notes, embedded experiments.</p>
+
+  <!-- EXPERIENCE -->
+  <p class="section-title">Experience</p>
+  <p><a href="experience.html">Professional background →</a></p>
+
+
+  <!-- OPTIONAL LEARNING/NOTES SECTION -->
+  <p class="section-title">Learning Items</p>
+  <p> Test Item</p>
 
   <br><br>
+
 </div>
+
+<script src="assets/style.js"></script>
 </body>
 </html>
